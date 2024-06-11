@@ -3,6 +3,7 @@ This project aims to classify images from the CIFAR-10 dataset into 10 categorie
 
 ## Repository Structure
 Image-classification-on-the-CIFAR-10-Tensorflow-Dataset/
+
 │
 ├── model/                 # Directory containing trained model files
 │   ├── model3.h5
@@ -11,18 +12,28 @@ Image-classification-on-the-CIFAR-10-Tensorflow-Dataset/
 │   ├── model6.h5
 │   ├── model7.h5
 │
+
 ├── test/                  # Directory for test scripts or files
 │   ├── test_images.jpg
 │   ├── ...
 │
-├── Procfile.txt           # Configuration for deploying the app (e.g., on Heroku)
-├── README.md              # Project documentation (this file)
+
+├── Procfile.txt           # Configuration for deploying the app
+
+├── README.md              # Project documentation
+
 ├── app.py                 # Flask web application for model inference
+
 ├── cifar_10.ipynb         # Jupyter Notebook for model training and evaluation
+
 ├── requirements.txt       # Python dependencies
+
 └── runtime.txt            # Specifies the Python runtime environment
 
 ## Setup Instructions
+
 Prerequisites
+
 Python 3.7 or higher
+
 pip (Python package installer)
